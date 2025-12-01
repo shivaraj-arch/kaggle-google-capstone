@@ -10,9 +10,10 @@ It's a multi agent, with two apis fetching data from stock exchange with paralle
 **How to Run**
 1. Set GOOGLE_API_KEY from https://aistudio.google.com/app/api-keys as environment variable. The Agent pulls it as os.environ["GOOGLE_API_KEY"] .
 2. Install google-adk as `pip install google-adk`
-3. Install tkinter as 
+3. Install matplotlib as `pip install matplotlib`
+4. Install tkinter as 
 `brew install python-tk@3.12` in mac or 
 `sudo apt install python3.12-tk` in ubuntu or
 `sudo yum install python3.12-tkinter` in redhat 
-4. Run the script niftyagent.py ( tested on python 3.12) as `python niftyagent.py` 
+5. Run the script niftyagent.py ( tested on python 3.12) as `python niftyagent.py` 
 
