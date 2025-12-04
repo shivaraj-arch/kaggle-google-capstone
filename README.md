@@ -5,7 +5,10 @@ This project contains the core logic for Agent Nifty, a multi-agent system desig
 
 There are three aspects. One agent analyses the index data pulled from exchange api. The second pulls the investment flow in and out of exchange index and the third provides the latest financial headlines. A parallel agent then aggregates and summarizes with a prediction brief for the next trading day.
 
-It's a multi agent, with two apis fetching data from stock exchange with parallel and Sequential agent to aggregate and summarize
+It's a multi agent, with two apis fetching data from NSE stock exchange with parallel and Sequential agent to aggregate and summarize along with google search agent tool fetching latest finance news headline and combine them to produce a brief for tomorrow's market.
+
+<img width="1003" height="520" alt="niftyagentarchitecture" src="https://github.com/user-attachments/assets/de442e51-4558-48d4-8e89-24e58d32aa24" />
+
 
 **How to Run**
 1. Set GOOGLE_API_KEY from https://aistudio.google.com/app/api-keys as environment variable. The Agent pulls it as os.environ["GOOGLE_API_KEY"] .
